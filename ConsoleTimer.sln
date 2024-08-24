@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ConsoleTimer", "ConsoleTimer.shproj", "{AF00F891-3E10-4B11-8E29-272DC0A1E735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTimersOne", "SystemTimersOne\SystemTimersOne.csproj", "{213A5A43-6A33-4D05-BF86-88F10A3B0A01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{213A5A43-6A33-4D05-BF86-88F10A3B0A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213A5A43-6A33-4D05-BF86-88F10A3B0A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213A5A43-6A33-4D05-BF86-88F10A3B0A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213A5A43-6A33-4D05-BF86-88F10A3B0A01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E056393E-8038-4DF6-A685-851C4AF79DD5}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ConsoleTimer.projitems*{af00f891-3e10-4b11-8e29-272dc0a1e735}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
