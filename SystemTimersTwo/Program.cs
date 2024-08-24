@@ -14,7 +14,7 @@ namespace SystemTimersTwo
          // Это связано с тем, что свойство таймера AutoReset по умолчанию установлено в true
          // Однако где нужен таймер для вызова события Elapsed только один раз,
          // необходимо установить свойство в AutoReset = false
-         var timer = new Timer(1000);
+         Timer timer = new Timer(1000);
          timer.Elapsed += OnEventExecution;
          // Отключить повторяющиеся события
          timer.AutoReset = false;
